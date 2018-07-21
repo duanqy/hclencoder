@@ -43,7 +43,7 @@ const (
 
 	// OmitTag will omit this field from encoding. This is the similar
 	// behavior to `json:"-"`.
-	OmitTag string = "omit"
+	OmitTag string = "-"
 
 	// OmitEmptyTag will omit this field if it is a zero value. This
 	// is similar behavior to `json:",omitempty"`
