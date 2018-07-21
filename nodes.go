@@ -39,7 +39,7 @@ const (
 
 	// HCLETagName is the struct field tag used by this package. The
 	// values from this tag are used in conjunction with HCLTag values.
-	HCLETagName = "hcle"
+	HCLETagName = "hcl"
 
 	// OmitTag will omit this field from encoding. This is the similar
 	// behavior to `json:"-"`.
